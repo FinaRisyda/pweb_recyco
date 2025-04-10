@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 12px;
+    box-sizing: border-box;
+    text-align: left;
+    margin: auto;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0D0C22;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtext {
+    font-size: 1rem;
+    color: #A9A9A9;
+    margin-bottom: 1.5rem;
+  }
+  
+  .google-btn {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .google-btn img {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .divider {
+    text-align: center;
+    color: #aaa;
+    font-size: 1rem;
+    margin: 1rem 0;
+    position: relative;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .email-btn {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .email-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .agreement {
+    font-size: 1rem;
+    color: #6c6c6c;
+    margin-top: 1.2rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .agreement a {
+    color: #0D0C22;
+    text-decoration: underline;
+  }
+  
+  .signup-link {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .signup-link a {
+    color: #0D0C22;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9; /* Warna background keseluruhan */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signin-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff; /* Warna card putih */
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Bayangan halus */
+    border-radius: 12px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  h2 {
+    font-size: 1.5rem; /* Ukuran = 24px */
+    font-weight: 800;
+    color: #0D0C22;
+    margin-bottom: 0.75rem; /* 12px */
+  }
+  
+  .subtext {
+    font-size: 1rem; /* Ukuran = 16px */
+    color: #A9A9A9;
+    margin-bottom: 1.5rem; /* 24px */
+  }
+  
+  .google-btn {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .google-btn img {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #aaa;
+    font-size: 1rem;
+    margin: 1.5rem 0;
+    width: 100%; /* biar penuh dalam container */
+    max-width: 400px; /* samain sama kotak input */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: 0 12px;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem; /* 24px */
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem; /* Ukuran label = 16px */
+    font-weight: 600;
+    color: #0D0C22;
+    margin-bottom: 0.5rem; /* 8px */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 1rem; /* Padding input */
+    border: 1px solid #ccc; /* Border input abu terang */
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #0D0C22;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #999999; /* Warna saat diklik: abu-abu tua */
+  }
+  
+  input::placeholder {
+    color: #A9A9A9; /* Warna placeholder */
+    font-size: 1rem;
+  }
+  
+  .password-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .forgot {
+    font-size: 1rem;
+    color: #0D0C22;
+    text-decoration: underline;
+  }
+  
+  .signin-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #7ECBAF; /* Warna tombol hijau pastel */
+    color: #F9F9F9;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signin-button:hover {
+    background-color: #72c9a4; /* Warna saat hover */
+  }
+  
+  .signup-link {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .signup-link a {
+    text-decoration: underline;
+    color: #0D0C22;
+  }
+  

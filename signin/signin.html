@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign In - Recyco</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="signinstyles.css" />
+</head>
+<body>
+  <div class="signin-container">
+    <h2>Sign In to Recyco</h2>
+    <p class="subtext">Welcome back! Please sign in to continue.</p>
+
+    <button class="google-btn">
+      <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google icon" />
+      Sign in with Google
+    </button>
+
+    <div class="divider">
+        <span>or sign in with email</span>
+      </div>      
+
+    <div class="form-group">
+      <label for="username">User Name / Email Address</label>
+      <input type="text" id="username" placeholder="Please enter your user name / email" />
+    </div>
+
+    <div class="form-group">
+      <div class="password-label">
+        <label for="password">Password</label>
+        <a href="#" class="forgot">Forget?</a>
+      </div>
+      <input type="password" id="password" placeholder="Please enter your password" />
+    </div>
+
+    <button class="signin-button">Sign In</button>
+
+    <p class="signup-link">Don’t have an account? <a href="#">Sign Up</a></p>
+  </div>
+</body>
+</html>

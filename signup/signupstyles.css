@@ -1,0 +1,119 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;       /* Warna background keseluruhan */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;       /* Warna card putih */
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);  /* Bayangan halus */
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    font-size: 1.5rem;              /* Ukuran untuk "Sign Up for Recyco" = 12px */
+    font-weight: 800;                /* Bold ekstra */
+    color: #0D0C22;                  /* Warna teks judul */
+    margin-bottom: 0.75rem;          /* 12px jarak bawah */
+  }
+  
+  .subtext {
+    font-size: 1rem;              /* Ukuran "Let's get started..." = 12px */
+    color: #A9A9A9;                  /* Warna abu-abu terang */
+    margin-bottom: 1.5rem;           /* 24px jarak ke form */
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;           /* 24px jarak antar input */
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0D0C22;                  /* Warna label seperti "Username" */
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;          /* Border input abu terang */
+    border-radius: 8px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #999999;           /* Warna saat diklik: abu-abu tua */
+  }
+  
+  input::placeholder {
+    color: #A9A9A9;                  /* Warna "Create your username", dll */
+    font-size: 0.85rem;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;           /* 24px jarak ke tombol */
+    font-size: 1rem;              /* 12px ukuran teks */
+    color: #0D0C22;                  /* Warna teks persetujuan */
+    line-height: 1.4;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-top: 4px;
+    flex-shrink: 0;
+  }
+  
+  .checkbox-group a {
+    color: #0D0C22;
+    text-decoration: underline;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 0.9rem;
+    background-color: #7ECBAF;      /* Warna tombol hijau pastel */
+    color: #F9F9F9;                 /* Teks putih */
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-button:hover {
+    background-color: #72c9a4;       /* Warna saat hover */
+  }
+  
+  .signin-link {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .signin-link a {
+    text-decoration: underline;
+    color: #0D0C22;
+  }
+  
